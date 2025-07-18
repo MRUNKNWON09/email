@@ -4,7 +4,7 @@ export default async function handler(req, res) {
 
     const TOKEN = "7994148332:AAEsD6iiGddt3Ddvg2EKOONS9aZUV-d94fo";
     const SOURCE_CHANNEL_ID = "-1002792792265";
-    const TARGET_CHANNEL_ID = "-1002585596681"; // চেক করো আলাদা কিনা
+    const TARGET_CHANNEL_ID = "-1002154664597"; // চেক করো আলাদা কিনা
 
     // ✅ /start command handler
     if (body.message && body.message.text === "/start") {
